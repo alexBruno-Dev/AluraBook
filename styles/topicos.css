@@ -1,7 +1,7 @@
 .tópicos {
     background: var(--azul-degrade);
     text-align: center;
-    padding: 1em 0;
+    padding: 1em;
 }
 
 .tópicos__titulo {
@@ -24,12 +24,13 @@
     color: var(--branco);
     padding: 1em;
     background-color: var(--laranja);
-    text-decoration: none;
+    text-decoration:  none;
     font-size: 14px;
     font-weight: 700;
 }
 
-@media screen and (min-width: 1024px) {
+@media  screen and (min-width: 1024px){
+    
     .tópicos__titulo {
         font-size: 24px;
     }
@@ -39,8 +40,10 @@
     }
 }
 
-@media screen and (min-width: 1728px) {
+@media  screen and (min-width: 1728px){ 
+
     .tópicos {
-        padding: 3em 30vw;
+        padding: 3em 25vw;
     }
+
 }
